@@ -1,0 +1,39 @@
+==========================================
+SLURM_JOB_ID = 10415203
+SLURM_SUBMIT_DIR = /project/kh_mercury_1/dafne_data/code/merge_dafne_data
+SLURM_JOB_NODELIST = mcn34
+==========================================
+-------------------------------------------
+Job ID: 10415203
+Job User: jasonjia
+Num Cores: 1
+Array(Task ID):  of 
+Program Filepath: merge_dafne_data_with_orbis_mergefile.py
+df1 Filepath: /project/kh_mercury_1/dafne_data/output/combined_filtered_stata/dafne_export_test_20230217.csv
+df2 Filepath: /project/kh_mercury_1/dafne_data/data/orbis_mergefiles/merge_june2019.csv
+Output Filepath: /project/kh_mercury_1/dafne_data/output/merged_with_orbis_mergefile/dafne_merged_test_20230217.csv
+left_on: bvd_id_number
+right_on: BvDID
+-------------------------------------------
+df1 Filepath: /project/kh_mercury_1/dafne_data/output/combined_filtered_stata/dafne_export_test_20230217.csv
+df2 Filepath: /project/kh_mercury_1/dafne_data/data/orbis_mergefiles/merge_june2019.csv
+Output Filepath: /project/kh_mercury_1/dafne_data/output/merged_with_orbis_mergefile/dafne_merged_test_20230217.csv
+Merging on: left - bvd_id_number, right - BvDID
+Traceback (most recent call last):
+  File "merge_dafne_data_with_orbis_mergefile.py", line 26, in <module>
+    merge(df1filepath, df2filepath, outputfilepath, left_on, right_on)
+  File "merge_dafne_data_with_orbis_mergefile.py", line 21, in merge
+    df = df1.merge(df2, left_on=left_on, right_on=right_on, how=how)
+  File "/apps/python/3.8/3.8.16/lib/python3.8/site-packages/pandas/core/frame.py", line 10093, in merge
+    return merge(
+  File "/apps/python/3.8/3.8.16/lib/python3.8/site-packages/pandas/core/reshape/merge.py", line 110, in merge
+    op = _MergeOperation(
+  File "/apps/python/3.8/3.8.16/lib/python3.8/site-packages/pandas/core/reshape/merge.py", line 703, in __init__
+    ) = self._get_merge_keys()
+  File "/apps/python/3.8/3.8.16/lib/python3.8/site-packages/pandas/core/reshape/merge.py", line 1162, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+  File "/apps/python/3.8/3.8.16/lib/python3.8/site-packages/pandas/core/generic.py", line 1850, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: PosixPath('BvDID')
+srun: error: mcn34: task 0: Exited with exit code 1
+Done!

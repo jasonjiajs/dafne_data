@@ -1,0 +1,24 @@
+==========================================
+SLURM_JOB_ID = 10415481
+SLURM_SUBMIT_DIR = /project/kh_mercury_1/dafne_data/code/merge_dafne_data
+SLURM_JOB_NODELIST = mcn09
+==========================================
+-------------------------------------------
+Job ID: 10415481
+Job User: jasonjia
+Num Cores: 1
+Array(Task ID):  of 
+Program Filepath: merge_dafne_data_with_orbis_mergefile.py
+df1 Filepath: /project/kh_mercury_1/dafne_data/output/combined_filtered_stata/dafne_export_test_20230217.csv
+df2 Filepath: /project/kh_mercury_1/dafne_data/data/orbis_mergefiles/merge_june2019.csv
+Output Filepath: /project/kh_mercury_1/dafne_data/output/merged_with_orbis_mergefile/dafne_merged_test_20230217.csv
+left_on: bvd_id_number
+right_on: BvDID
+-------------------------------------------
+df1 Filepath: /project/kh_mercury_1/dafne_data/output/combined_filtered_stata/dafne_export_test_20230217.csv
+df2 Filepath: /project/kh_mercury_1/dafne_data/data/orbis_mergefiles/merge_june2019.csv
+Output Filepath: /project/kh_mercury_1/dafne_data/output/merged_with_orbis_mergefile/dafne_merged_test_20230217.csv
+Merging on: left - bvd_id_number, right - BvDID
+Shape of merged file: (27303404, 57)
+Saved merged file as: /project/kh_mercury_1/dafne_data/output/merged_with_orbis_mergefile/dafne_merged_test_20230217.csv
+Done!

@@ -1,4 +1,4 @@
-# Combining Dafne Data
+# Processing Dafne Data
 
 - This folder contains all codes and documentation for the task to process Dafne data. 
 - It is cloned into both Dropbox (your work laptop) and Mercury under .../conference_call/code, 
