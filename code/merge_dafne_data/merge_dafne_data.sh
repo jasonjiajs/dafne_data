@@ -74,3 +74,6 @@ echo "Done!"
 
 # View first 10 rows of csv file
 # head -n 10 /project/kh_mercury_1/dafne_data/output/merged_with_orbis_mergefile/dafne_merged_test_20230217.csv
+
+# View first 10 rows of csv file and save to .csv for Kilian to view
+# head -n 10 /project/kh_mercury_1/dafne_data/output/merged_with_orbis_mergefile/dafne_merged_test_20230217.csv > /project/kh_mercury_1/dafne_data/output/merged_with_orbis_mergefile/dafne_merged_test_20230217_10rows.csv
