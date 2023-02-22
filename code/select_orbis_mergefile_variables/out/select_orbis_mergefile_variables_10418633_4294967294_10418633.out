@@ -1,0 +1,17 @@
+-------------------------------------------
+Job ID: 10418633
+Job User: jasonjia
+Num Cores: 1
+Array(Task ID):  of 
+Program Filepath: select_orbis_mergefile_variables.py
+Input Filepath: /project/kh_mercury_1/dafne_data/data/orbis_mergefiles/merge_june2019.csv
+Output Filepath: /project/kh_mercury_1/dafne_data/output/orbis_mergefile_filtered/merge_june2019_filtered.csv
+-------------------------------------------
+Input Filepath: /project/kh_mercury_1/dafne_data/data/orbis_mergefiles/merge_june2019.csv
+Output Filepath: /project/kh_mercury_1/dafne_data/output/orbis_mergefile_filtered/merge_june2019_filtered.csv
+Columns to keep: ['Unnamed: 0', 'BvDID', 'NAME_INTERNAT', 'Postcode', 'City', 'Number of employees', 'Operating revenue (Turnover)', 'Primary code(s) in this classification', 'Secondary code(s) in this classification', 'US SIC, Primary code(s)', 'US SIC, Secondary code(s)', 'US SIC secondary code, text description']
+Column names: ['unnamed_0_2019', 'bvdid_2019', 'name_internat_2019', 'postcode_2019', 'city_2019', 'number_of_employees_2019', 'operating_revenue_turnover_2019', 'primary_code_2019', 'secondary_code_2019', 'us_sic_primary_code_2019', 'us_sic_secondary_code_2019', 'us_sic_secondary_code_desc_2019']
+Filtering: merge_june2019.csv
+Saved file as: /project/kh_mercury_1/dafne_data/output/orbis_mergefile_filtered/merge_june2019_filtered.csv
+df.shape: (24745523, 12)
+Done!

@@ -1,0 +1,17 @@
+-------------------------------------------
+Job ID: 10418631
+Job User: jasonjia
+Num Cores: 1
+Array(Task ID):  of 
+Program Filepath: select_dafne_variables.py
+Input Filepath: /project/kh_mercury_1/dafne_data/output/combined/dafne_export_combined_20230217.csv
+Output Filepath: /project/kh_mercury_1/dafne_data/output/combined_filtered/dafne_export_filtered_20230217.csv
+-------------------------------------------
+Input Filepath: /project/kh_mercury_1/dafne_data/output/combined/dafne_export_combined_20230217.csv
+Output Filepath: /project/kh_mercury_1/dafne_data/output/combined_filtered/dafne_export_filtered_20230217.csv
+Columns to keep: ['company_name', 'gkz_administrative_region_code', 'gkz_borough_code', 'wz_2008_pri_actv_cd_3_digits', 'peer_group_name', 'number_of_employees_2011', 'gross_results_2011', 'post_code', 'city', 'wz_2008_pri_actv_cd_4_digits', 'us_sic_all_codes', 'bvd_id_number']
+Column names: ['company_name_2011', 'gkz_administrative_region_code_2011', 'gkz_borough_code_2011', 'wz_2008_pri_actv_cd_3_digits_2011', 'peer_group_name_2011', 'number_of_employees_2011_2011', 'gross_results_2011_2011', 'post_code_2011', 'city_2011', 'wz_2008_pri_actv_cd_4_digits_2011', 'us_sic_all_codes_2011', 'bvd_id_number_2011']
+Filtering: dafne_export_combined_20230217.csv
+Saved file as: /project/kh_mercury_1/dafne_data/output/combined_filtered/dafne_export_filtered_20230217.csv
+df.shape: (4588840, 12)
+Done!

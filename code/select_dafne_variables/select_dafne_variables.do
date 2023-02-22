@@ -7,4 +7,4 @@ peer_group_name peer_group_description number_of_employees_2014 number_of_employ
 number_of_employees_2010 number_of_employees_2009 number_of_employees_2008 number_of_employees_2007 number_of_employees_2006 number_of_employees_2005 /// 
 gross_results_2014 gross_results_2012 gross_results_2013 gross_results_2011 gross_results_2010 gross_results_2009 gross_results_2008 gross_results_2007 /// 
 gross_results_2006 gross_results_2005 post_code city country wz_2008_pri_actv_cd_4_digits us_sic_all_codes isin_number bvd_id_number
-save "C:\Users\jasonjia\Dropbox\projects\combine_dafne_data\output\combined_filtered_stata\dafne_export_test_20230217.dta", replace
+save "C:\Users\jasonjia\Dropbox\projects\combine_dafne_data\output\combined_filtered\dafne_export_test_20230217.dta", replace

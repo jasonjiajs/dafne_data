@@ -25,8 +25,8 @@
 # '%a': task ID (e.g. 1, 2, 3)
 # '%J': job ID (e.g. 7823507, 7823506, 7823505)
 
-#SBATCH --job-name=select_dafne_variables
-#SBATCH --output=out/select_dafne_variables_%A_%a_%J.out 
+#SBATCH --job-name=select_orbis_mergefile_variables
+#SBATCH --output=out/select_orbis_mergefile_variables_%A_%a_%J.out 
 
 #---------------------------------------------------------------------------------
 # Print some useful variables
@@ -61,8 +61,8 @@ echo "Done!"
 
 #---------------------------------------------------------------------------------
 # Example command
-# cd /project/kh_mercury_1/dafne_data/code/select_dafne_variables
-# sbatch select_dafne_variables.sh select_dafne_variables.py /project/kh_mercury_1/dafne_data/output/combined/dafne_export_combined_20230217.csv /project/kh_mercury_1/dafne_data/output/combined_filtered/dafne_export_filtered_20230217.csv
+# cd /project/kh_mercury_1/dafne_data/code/select_orbis_mergefile_variables
+# sbatch select_orbis_mergefile_variables.sh select_orbis_mergefile_variables.py /project/kh_mercury_1/dafne_data/data/orbis_mergefiles/merge_june2019.csv /project/kh_mercury_1/dafne_data/output/orbis_mergefile_filtered/merge_june2019_filtered.csv
 
 # View first 10 rows of csv file
-# head -n 10 /project/kh_mercury_1/dafne_data/output/combined_filtered/dafne_export_filtered_20230217.csv
+# head -n 10 /project/kh_mercury_1/dafne_data/output/orbis_mergefile_filtered/merge_june2019_filtered.csv

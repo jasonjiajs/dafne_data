@@ -1,0 +1,33 @@
+-------------------------------------------
+Job ID: 10418664
+Job User: jasonjia
+Num Cores: 1
+Array(Task ID):  of 
+Program Filepath: merge_dafne_data_with_orbis_mergefile.py
+df1 Filepath: /project/kh_mercury_1/dafne_data/output/combined_filtered/dafne_export_filtered_20230217.csv
+df2 Filepath: /project/kh_mercury_1/dafne_data/output/orbis_mergefile_filtered/merge_june2019_filtered.csv
+Output Filepath: /project/kh_mercury_1/dafne_data/output/merged_with_orbis_mergefile/dafne_merged_20230217
+left_on: bvd_id_number_2011
+right_on: bvdid_2019
+-------------------------------------------
+df1 Filepath: /project/kh_mercury_1/dafne_data/output/combined_filtered/dafne_export_filtered_20230217.csv
+df2 Filepath: /project/kh_mercury_1/dafne_data/output/orbis_mergefile_filtered/merge_june2019_filtered.csv
+Output Filepath: /project/kh_mercury_1/dafne_data/output/merged_with_orbis_mergefile/dafne_merged_20230217
+Merging on: left - bvd_id_number_2011, right - bvdid_2019
+Saved merged file as: /project/kh_mercury_1/dafne_data/output/merged_with_orbis_mergefile/dafne_merged_20230217.csv
+Saved merged file as: /project/kh_mercury_1/dafne_data/output/merged_with_orbis_mergefile/dafne_merged_20230217.dta
+Shape of merged file: (27303404, 24)
+merge_dafne_data_with_orbis_mergefile.py:26: InvalidColumnName: 
+Not all pandas column names were valid Stata variable names.
+The following replacements have been made:
+
+    gkz_administrative_region_code_2011   ->   gkz_administrative_region_code_2
+    wz_2008_pri_actv_cd_3_digits_2011   ->   wz_2008_pri_actv_cd_3_digits_201
+    wz_2008_pri_actv_cd_4_digits_2011   ->   wz_2008_pri_actv_cd_4_digits_201
+
+If this is not what you expect, please make sure you have Stata-compliant
+column names in your DataFrame (strings only, max 32 characters, only
+alphanumerics and underscores, no Stata reserved words)
+
+  df.to_stata(outputfilepath_dta, write_index=False)
+Done!
