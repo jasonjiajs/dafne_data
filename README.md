@@ -9,6 +9,7 @@ so the two folders are identical as long as commits, pushes and pull requests ar
   - Stage 3: Filter the .csv file by keeping a subset of columns, and save it as a .csv file. Then, combine the filtered .csv file with the Orbis mergefile on BvD ID. This is done on Mercury as a .py file.
 
 ## Folder directory
+
 - `code`: code to process Dafne data
 - `data`: raw Dafne data and Orbis mergefile
 - `output`: processed Dafne data
