@@ -1,8 +1,7 @@
 # Processing Dafne Data
 
-- This folder contains all codes and documentation for the task to process Dafne data. 
-- It is cloned into both Dropbox (your work laptop) and Mercury under .../conference_call/code, 
-so the two folders are identical as long as commits, pushes and pull requests are made regularly.
+- This folder contains all codes and documentation for the task to process Dafne data.
+- It is cloned into both Dropbox (your work laptop) and Mercury under .../conference_call/code, so the two folders are identical as long as commits, pushes and pull requests are made regularly.
 - Currently, there are 3 stages:
   - Stage 1: Combine the raw Dafne .csv files into a big .csv file. This is done locally as a .ipynb file.
   - Stage 2: Filter the .csv file by keeping a subset of columns, and save it as a .dta file. This is done locally on Stata as a do file.
@@ -12,5 +11,7 @@ so the two folders are identical as long as commits, pushes and pull requests ar
 
 - `code`: code to process Dafne data
 - `data`: raw Dafne data and Orbis mergefile
+  - The Dafne data comes from the UChicago Box folder [`BvD Firm Data/Dafne CSV Raw Data`](https://uchicago.app.box.com/folder/147992436968).
+  - The Orbis mergefile comes  from the UChicago Box folder [`BvD Firm Data/Orbis/mergefiles`](https://uchicago.app.box.com/folder/151621321393)
 - `output`: processed Dafne data
 - `.gitignore`: note that `data` and `output` are not in the GitHub repo. They are only available on Dropbox and Mercury.
